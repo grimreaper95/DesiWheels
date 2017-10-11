@@ -101,6 +101,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 try{
+                    // Sending intent to open termsandconditions class
                     Intent i=new Intent(MainActivity.this,TermsAndConditions.class);
                     startActivity(i);
                 }
