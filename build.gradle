@@ -5,6 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
+        //Update gradle version to 3.0 or later. The newer SDK versions do not support gradle version < 3
         classpath 'com.android.tools.build:gradle:1.2.3'
 
         // NOTE: Do not place your application dependencies here; they belong
