@@ -21,6 +21,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    //Remove support libraries and migrate entire app code to AndroidX. Please follow: https://developer.android.com/jetpack/androidx/migrate
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.android.support:support-v4:22.2.1'
 }
